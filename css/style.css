@@ -8,3 +8,10 @@
 .form__wrap{
     display: table; margin: 0 auto;
 }
+.form--txt{
+    padding: 10px 25px; border: 2px solid #9e0a0a; outline: none; border-radius: 5px;
+}
+.form--submit{
+    padding: 10px 25px; border: 2px solid #9e0a0a; outline: none; border-radius: 5px;
+    background: #06833a; cursor: pointer; color: #fff; margin-left: 10px;
+}
