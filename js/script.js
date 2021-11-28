@@ -44,4 +44,16 @@ function minmaxArr(arr){
     alert("min = " + min + "\n" + "max = " + max)
 }
 
+let a = "XXX"; 
+let b = "YYY";
+
+let c = a;
+let d = b;
+
+a = d
+b = c
+
+console.log(a); 
+console.log(b); 
+
 btnInput.addEventListener('click', minmaxArr(arr))
