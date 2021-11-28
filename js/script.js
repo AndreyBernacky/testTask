@@ -1,7 +1,7 @@
 let searchInput = document.querySelector(".form--txt");
 let btnInput = document.querySelector(".form--submit");
 
-let nameAge = [
+/*let nameAge = [
     {
         name: "Valera",
         age: "20",
@@ -25,4 +25,10 @@ btnInput.addEventListener('click', function(){
     nameAge1 = nameAge[0].name
 
     alert(inputValue + nameAge1)
-})
+})*/
+
+function superSum(a,b){
+    alert(a + b)
+}
+
+btnInput.addEventListener('click', superSum(3,4))
