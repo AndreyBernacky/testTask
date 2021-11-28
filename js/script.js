@@ -44,6 +44,15 @@ function minmaxArr(arr){
     alert("min = " + min + "\n" + "max = " + max)
 }
 
+function findMax(arr){
+    let max = arr[0]
+    for(i = 0; i < arr.length; i++){
+        max = max > arr[i] ? max : arr[i]
+    }
+
+    alert("maxElement = " + max)
+}
+
 let a = "XXX"; 
 let b = "YYY";
 
@@ -56,4 +65,4 @@ b = c
 console.log(a); 
 console.log(b); 
 
-btnInput.addEventListener('click', minmaxArr(arr))
+btnInput.addEventListener('click', findMax([12,6,3,4,65,23,7,9,8]))
