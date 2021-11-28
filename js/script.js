@@ -25,7 +25,7 @@ btnInput.addEventListener('click', function(){
     nameAge1 = nameAge[0].name
 
     alert(inputValue + nameAge1)
-})*/
+})
 
 function superSum(a,b){
     alert(a + b)
@@ -66,3 +66,19 @@ console.log(a);
 console.log(b); 
 
 btnInput.addEventListener('click', findMax([12,6,3,4,65,23,7,9,8]))
+*/
+
+function cliclSubmit(){
+
+    inputValue = searchInput.value == "google" ? "Yandex круче. Но это не точно" : searchInput.value
+
+    alert(inputValue)
+}
+
+
+function start(e){
+    e.preventDefault()
+    setTimeout(cliclSubmit, 3000)
+}
+
+btnInput.addEventListener("click",start)
